@@ -15,7 +15,5 @@ for (let person of array) {
 
     if (person.age >= 50) {
         console.log(person.name + " is ouder dan 50");
-    } else {
-        console.log(person.name + " is jonger dan 50");
     }
 }
