@@ -16,7 +16,7 @@ doubleArrayValues.forEach(element => console.log(element * 2));
 
 // Map method
 const mapArrayValues = doubleArrayValues.map(x => x * 2);
-console.log(mapArrayValues);
+console.log(mapArrayValues); 
 
 // C
 const containsNumberBiggerThan10 = ([1, 4, 3, 6, 9, 7, 11]);
