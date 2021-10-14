@@ -4,10 +4,12 @@ const superheroes = [
   {name: "Superman", alter_ego: "Clark Kent"}, 
   {name: "Spiderman", alter_ego: "Peter Parker"}]
   
-const findSpiderMan = superheroes.find(function (element) {
-    return element.name === "Spiderman"; 
-});
-console.log(findSpiderMan); 
+const findSpiderMan = function(superheroes) {
+  return superheroes.find(function(superhero) {
+    return superhero.name === "Spiderman";
+  });
+};
+console.log("Find Spiderman:", findSpiderMan(superheroes));
 
 // B
 // For each
